@@ -16,14 +16,12 @@ public class Trip {
 
     public Trip(@NonNull final Rider rider,
                 @NonNull final Cab cab,
-                @NonNull final TripStatus tripStatus,
                 @NonNull final Double price,
                 @NonNull final Location fromPoint,
                 @NonNull final Location toPoint) {
 
         this.rider = rider;
         this.cab = cab;
-        this.tripStatus = tripStatus;
         this.price = price;
         this.fromPoint = fromPoint;
         this.toPoint = toPoint;
