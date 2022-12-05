@@ -16,6 +16,6 @@ public class Location {
     private Double y;
 
     public Double distance(Location location){
-        return sqrt(pow(this.x - location.x) + pow(this.y - location.y));
+        return sqrt(pow(this.x - location.x,2) + pow(this.y - location.y,2));
     }
 }
